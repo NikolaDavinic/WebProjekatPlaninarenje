@@ -1,0 +1,97 @@
+.GlavniKontejner
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 3;
+
+}
+
+table, tr,th,td{
+    border: 1px solid black;
+
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+.Prikaz
+{
+    display: flex;
+    flex-grow: 3;
+}
+
+.Forma
+{
+    display: flex;
+    flex: 0 0 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.chbox
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div
+{
+    margin: 5px;
+}
+
+.ClanoveDrustva
+{
+    margin: 5px;
+}
+
+.PrikaziPlaninare
+{
+    margin: 5px;
+}
+
+.PrikaziDogadjajeZaPlaninara
+{
+    margin: 5px;
+}
+
+.Upisi
+{
+    margin: 5px;
+}
+
+.selektovanRed
+{
+    background-color: lightblue;
+}
+
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.Obrisi
+{
+    margin: 5px;
+    font-size: small;
+}
+
+.glavnaTabela
+{
+    display: flex;
+    flex-grow: 4;
+}
+
+.selRed
+{
+    background-color: lightgreen;
+}
+
+.redzadnjiRed
+{
+    display: flex;
+    flex-direction: column;
+}
